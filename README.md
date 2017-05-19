@@ -25,7 +25,7 @@ Especially because of the necessity for https i have chosen to deploy the demo s
 The Source is exposed in a GitHub-Pages Site for a short demo
 https://quasarchimaere.github.io/progressivewebapp_serviceworker_test/
 
-* Browser Support for: 
+Supported Browsers 
  * Chrome
  * Firefox
  * Opera
