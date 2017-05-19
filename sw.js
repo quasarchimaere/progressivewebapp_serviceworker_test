@@ -1,8 +1,8 @@
 var cacheName= "testCacheName";
 var filesToCache = [
     //'/',
-    //'index.html',
-    //'styles/style.css',
+    'index.html',
+    'styles/style.css',
     'img/circle.png',
     'img/triangle.png',
     'img/squiggle.png',
