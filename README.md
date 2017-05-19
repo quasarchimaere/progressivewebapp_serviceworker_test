@@ -1,6 +1,14 @@
 # Progressive Webapps - Service Worker Test
+[Progressive Webapps](https://developers.google.com/web/progressive-web-apps/) are Webapps that give you a richer offline experience and facilitate background fetching and push notifications
+[Here](https://developers.google.com/web/progressive-web-apps/checklist) you see a checklist of what it means to have a webapp that is considered "progressive".
+
 ## Description
 This is a LabDay Test Project for a first implementation of a [Service Worker](https://developers.google.com/web/fundamentals/getting-started/primers/service-workers). The Project/Implementation is looseley based upon this [Tutorial](https://developers.google.com/web/fundamentals/getting-started/codelabs/your-first-pwapp/)
+
+* There are 2 important prerequisites for service workers:
+  1. The file of the worker must be in the root of the application
+  2. You must use HTTPS
+Especially because of the necessity for https i have chosen to deploy the demo site on github pages (see Demo)
 
 ## _Attention_ be aware that this Code is not to be used for production purposes for the following Reasons:
 1. __Cache depends on updating the cache key for every change__ For example this caching method requires you to update the cache key every time content is changed, otherwise, the cache will not be updated, and the old content will be served. So be sure to change the cache key with every change as you're working on your project!
@@ -16,3 +24,10 @@ This is a LabDay Test Project for a first implementation of a [Service Worker](h
 ## Demo
 The Source is exposed in a GitHub-Pages Site for a short demo
 https://quasarchimaere.github.io/progressivewebapp_serviceworker_test/
+
+* Browser Support for: 
+ * Chrome
+ * Firefox
+ * Opera
+ * [Edge(shows public support for future implementation)](https://developer.microsoft.com/en-us/microsoft-edge/platform/status/serviceworker/)
+ * NO SUPPORT for Safari
